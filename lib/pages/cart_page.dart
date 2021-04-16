@@ -548,7 +548,7 @@ getCart() async
                 GestureDetector(
                   onTap: () async {
 
-                    if(totalAmount >=1500)
+                    if(totalAmount >=150)
                     {
                       isDeletingCart = true;
                       setState(() {
@@ -559,7 +559,7 @@ getCart() async
                     }
                     else
                     {
-                      Fluttertoast.showToast(msg: "Minimum order value is 1500 /-" , textColor: Colors.white , backgroundColor: Colors.black);
+                      Fluttertoast.showToast(msg: "Minimum order value is 150 /-" , textColor: Colors.white , backgroundColor: Colors.black);
                     }
 
                   },
